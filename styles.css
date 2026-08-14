@@ -44,9 +44,23 @@ body {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
   font-size: 1.15rem;
   font-weight: 800;
   letter-spacing: 0.02em;
+}
+
+.brand-logo {
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  border-radius: 14px;
+}
+
+.brand-wordmark {
+  display: inline-block;
 }
 
 .nav-link {
@@ -74,6 +88,13 @@ body {
 
 .hero-copy {
   padding: 3.25rem;
+}
+
+.hero-logo {
+  width: min(100%, 34rem);
+  display: block;
+  margin: 0 0 1.35rem;
+  object-fit: contain;
 }
 
 .eyebrow,
@@ -252,6 +273,15 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.65rem;
+  }
+
+  .brand {
+    gap: 0.6rem;
+  }
+
+  .brand-logo {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .hero-card,
