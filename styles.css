@@ -1,0 +1,262 @@
+:root {
+  --bg: #f4efe7;
+  --surface: rgba(255, 255, 255, 0.78);
+  --ink: #1f1c18;
+  --muted: #655b4e;
+  --accent: #ff6a3d;
+  --accent-deep: #c63e1f;
+  --line: rgba(31, 28, 24, 0.08);
+  --shadow: 0 20px 60px rgba(69, 45, 19, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Manrope", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(255, 183, 110, 0.35), transparent 28%),
+    radial-gradient(circle at 85% 15%, rgba(77, 185, 255, 0.25), transparent 22%),
+    linear-gradient(180deg, #fbf8f2 0%, var(--bg) 100%);
+}
+
+.page-shell {
+  width: min(1120px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 1.5rem 0 4rem;
+}
+
+.topbar,
+.hero,
+.grid-section,
+.story-section {
+  animation: rise 700ms ease both;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.brand {
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+
+.nav-link {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.35fr 0.9fr;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.hero-copy,
+.hero-card,
+.panel,
+.story-section {
+  background: var(--surface);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+}
+
+.hero-copy {
+  padding: 3.25rem;
+}
+
+.eyebrow,
+.section-tag {
+  margin: 0 0 0.85rem;
+  font-size: 0.84rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-deep);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(2.7rem, 5vw, 5rem);
+  line-height: 0.97;
+  margin-bottom: 1rem;
+}
+
+.lede {
+  max-width: 42rem;
+  color: var(--muted);
+  font-size: 1.08rem;
+  line-height: 1.7;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 2rem;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3.2rem;
+  padding: 0 1.25rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 800;
+  transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.button:hover {
+  transform: translateY(-1px);
+}
+
+.button.primary {
+  background: var(--accent);
+  color: #fff9f5;
+}
+
+.button.secondary {
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+
+.hero-card {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  align-content: center;
+  background:
+    linear-gradient(180deg, rgba(255, 250, 245, 0.92), rgba(255, 236, 220, 0.72)),
+    var(--surface);
+}
+
+.metric {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.metric:last-child {
+  border-bottom: 0;
+}
+
+.metric-value {
+  display: block;
+  font-weight: 800;
+  font-size: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.metric-label {
+  color: var(--muted);
+}
+
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.panel {
+  padding: 1.5rem;
+}
+
+.grid-section .panel:first-child {
+  grid-column: span 2;
+  background: linear-gradient(135deg, rgba(40, 129, 255, 0.12), rgba(255, 255, 255, 0.85));
+}
+
+.story-section {
+  margin-top: 1.5rem;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 1.5rem;
+}
+
+.story-copy p:last-child {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.story-list {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.story-item {
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--line);
+  font-weight: 700;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 860px) {
+  .hero,
+  .grid-section,
+  .story-section {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-section .panel:first-child {
+    grid-column: auto;
+  }
+
+  .hero-copy {
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .page-shell {
+    width: min(100% - 1rem, 1120px);
+  }
+
+  .topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.65rem;
+  }
+
+  .hero-card,
+  .story-section,
+  .panel {
+    padding: 1.25rem;
+  }
+}
