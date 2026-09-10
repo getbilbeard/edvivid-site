@@ -111,6 +111,7 @@ footer { padding:1.5rem 0 2.5rem; display:flex; justify-content:space-between; c
 
 /* Professional polish pass */
 h1,h2 { letter-spacing:-.035em; line-height:1; }
+.hero h1 { max-width:780px; font-size:clamp(3rem,4.55vw,5rem); line-height:1.1; letter-spacing:-.018em; }
 .hero:before { opacity:.62; }
 .orbit,.spark { display:none; }
 .lesson-window { box-shadow:0 25px 45px rgba(23,38,76,.18); transform:rotate(1.5deg); }
