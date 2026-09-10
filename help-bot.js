@@ -13,7 +13,7 @@
     safe:
       "EdVivid is school-safe by design. Student photos should not be used as mascots, and videos are reviewed before client delivery.",
     price:
-      "Start with a free sample. A single finished announcement video is $149, and the Weekly Starter is $499 per month for four custom videos."
+      "Start with a free sample. Back-to-school launch pricing is $175 for one finished video, or $396 per month for four videos, which brings it to $99 per video."
   };
 
   const prompts = [
