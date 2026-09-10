@@ -68,6 +68,20 @@ h1 em,h2 em { color:var(--coral); font-style:italic; }
 .work-section { padding:8rem 0; }.section-heading { display:flex; align-items:end; justify-content:space-between; margin-bottom:3rem; }.section-heading .eyebrow { align-self:start; }.section-heading h2 { font-size:clamp(3rem,5vw,5rem); margin:0; }
 .services-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.2rem; }.service-card { min-height:330px; padding:1.5rem; border-radius:8px; display:flex; flex-direction:column; position:relative; overflow:hidden; }.service-card.coral { background:var(--coral); color:white; }.service-card.blue { background:var(--blue); color:white; }.service-card.yellow { background:var(--yellow); }.card-number { font:.68rem "DM Mono",monospace; }.service-icon { font-size:5rem; font-family:Fraunces,serif; margin:auto 0 1rem; }.service-card h3 { font-family:Fraunces,serif; font-size:2.2rem; letter-spacing:-.06em; line-height:.85; margin-bottom:.8rem; }.service-card p { font-size:.82rem; line-height:1.6; max-width:15rem; margin:0; }
 .monthly-section { display:grid; grid-template-columns:1fr 1fr; gap:6vw; align-items:center; padding:2rem 0 7rem; }.monthly-intro h2 { font-size:clamp(3rem,5vw,5.1rem); margin-bottom:1.3rem; }.monthly-intro > p:last-child { max-width:32rem; color:#52617c; line-height:1.75; }.monthly-card { background:var(--ink); color:white; padding:2.2rem; border-radius:18px; box-shadow:16px 16px 0 var(--coral); }.plan-label { color:var(--yellow); font:.68rem "DM Mono",monospace; text-transform:uppercase; letter-spacing:.11em; }.monthly-card h3 { margin:1rem 0 .45rem; font:2.6rem/.9 Fraunces,serif; letter-spacing:-.07em; }.plan-price { margin:.2rem 0 1rem; color:var(--yellow); font-size:1.15rem; font-weight:900; }.plan-copy { max-width:30rem; color:#d9e2f4; font-size:.86rem; line-height:1.65; }.value-pills { display:grid; grid-template-columns:repeat(3,1fr); gap:.55rem; margin:1.35rem 0 1.45rem; }.value-pills span { min-height:54px; display:grid; place-items:center; padding:.7rem .55rem; border:1px solid rgba(255,255,255,.18); border-radius:12px; color:#fff; background:rgba(255,255,255,.06); font-size:.72rem; font-weight:900; text-align:center; }.monthly-card ul { margin:1.4rem 0; padding:0; list-style:none; border-top:1px solid rgba(255,255,255,.16); }.monthly-card li { padding:.75rem 0 .75rem 1.5rem; border-bottom:1px solid rgba(255,255,255,.16); font-size:.78rem; line-height:1.45; position:relative; }.monthly-card li:before { content:"✦"; position:absolute; left:0; color:var(--yellow); }.monthly-card .button { background:var(--yellow); color:var(--ink); }.plan-note { margin:1rem 0 0; color:#b9c4dd; font-size:.68rem; }
+.worth-section { padding:0 0 6.5rem; }
+.worth-heading { max-width:760px; margin-bottom:1.6rem; }
+.worth-heading h2 { margin:0 0 .8rem; font-size:clamp(2.8rem,4.4vw,4.8rem); }
+.worth-heading > p:last-child { max-width:34rem; color:#52617c; line-height:1.7; }
+.worth-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; }
+.worth-grid article { min-height:235px; padding:1.35rem; border:1px solid var(--line); border-radius:16px; background:#fff; box-shadow:9px 9px 0 rgba(23,38,76,.06); }
+.worth-grid article:nth-child(2) { background:#edf7ff; }
+.worth-grid article:nth-child(3) { background:#fff7df; }
+.worth-grid span { color:var(--coral); font:.68rem "DM Mono",monospace; letter-spacing:.1em; }
+.worth-grid b { display:block; margin:3rem 0 .7rem; font-size:1.12rem; line-height:1.18; }
+.worth-grid p { margin:0; color:#52617c; font-size:.84rem; line-height:1.58; }
+.funding-note { display:grid; grid-template-columns:.42fr 1.58fr; gap:1rem; align-items:center; margin-top:1rem; padding:1rem 1.15rem; border:1px solid var(--line); border-radius:16px; background:var(--ink); color:white; }
+.funding-note b { color:var(--yellow); font-size:.95rem; }
+.funding-note p { margin:0; color:#d9e2f4; font-size:.84rem; line-height:1.6; }
 .pricing-section { padding:6.5rem 0; border-top:1px solid var(--line); }
 .pricing-heading { display:grid; grid-template-columns:.85fr 1.15fr; gap:5vw; align-items:end; margin-bottom:2.4rem; }
 .pricing-heading h2 { margin:0; font-size:clamp(3rem,5vw,5rem); }
@@ -126,3 +140,4 @@ h1,h2 { letter-spacing:-.035em; line-height:1; }
 .service-card h3,.monthly-card h3,.process-video h3,.process-flow h3,.price-card h3 { letter-spacing:-.035em; line-height:1; }
 .monthly-card li:before { content:""; width:8px; height:8px; top:1.05rem; border-radius:50%; background:var(--yellow); }
 @media (max-width:760px) { .proof-strip div { grid-template-columns:1fr; } }
+@media (max-width:760px) { .worth-grid { grid-template-columns:1fr; }.worth-section { padding:0 0 4.5rem; }.worth-grid article { min-height:0; }.worth-grid b { margin:1.8rem 0 .7rem; }.funding-note { grid-template-columns:1fr; } }
