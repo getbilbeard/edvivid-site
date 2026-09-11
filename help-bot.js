@@ -13,7 +13,7 @@
     safe:
       "EdVivid is school-safe by design. Student photos should not be used as mascots, and videos are reviewed before client delivery.",
     price:
-      "Start with a free sample. Back-to-school launch pricing is $175 for one finished video, or $396 per month for four videos, which brings it to $99 per video."
+      "Start with a free sample. Regular pricing is $200 for one video or $150 each when schools book four. The back-to-school deal is $149 for one video, or $99 each when booking four or more."
   };
 
   const prompts = [
