@@ -15,7 +15,11 @@ Hi [Principal First Name],
 
 I’m Jacquie with EdVivid. We help schools turn announcements, reminders, events, and school spirit updates into short visual videos students and families can notice quickly.
 
-Would it be okay if I made a private sample for [School Name] so you could see what this might look like for your campus?
+Instead of asking staff to design slides, record video, or rebuild announcements each week, your school sends the update and EdVivid turns it into a short school-branded video.
+
+Would it be okay if I made a quick private sample for [School Name] so you could see what this might look like for your campus?
+
+**[Request your free school video sample](https://forms.edvivid.com/sample_request_form.html)**
 
 [See examples here](https://edvivid.com/#examples)
 
@@ -31,11 +35,11 @@ Hi [Principal First Name],
 
 Just following up in case this is useful for [School Name]. EdVivid turns school updates into short visual announcement videos without adding editing work for your staff.
 
-Here is the examples page:
+You can request a quick private sample here:
 
-[https://edvivid.com/#examples](https://edvivid.com/#examples)
+**[Request your free school video sample](https://forms.edvivid.com/sample_request_form.html)**
 
-Would you be open to seeing a private sample for your campus?
+[See examples here](https://edvivid.com/#examples)
 
 Best,
 
