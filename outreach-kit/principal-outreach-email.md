@@ -17,9 +17,9 @@ I’m Jacquie with EdVivid. We help schools turn announcements, reminders, event
 
 Instead of asking staff to design slides, record video, or rebuild announcements each week, your school sends the update and EdVivid turns it into a short school-branded video.
 
-Would it be okay if I made a quick private sample for [School Name] so you could see what this might look like for your campus?
+Would it be okay if I made a free private sample for [School Name] so you could see what this might look like for your campus? Most sample requests can be turned around the same day.
 
-**[Request your free school video sample](https://forms.edvivid.com/sample_request_form.html)**
+**[Request your free same-day school video sample](https://forms.edvivid.com/sample_request_form.html)**
 
 [See examples here](https://edvivid.com/#examples)
 
@@ -35,9 +35,9 @@ Hi [Principal First Name],
 
 Just following up in case this is useful for [School Name]. EdVivid turns school updates into short visual announcement videos without adding editing work for your staff.
 
-You can request a quick private sample here:
+You can request a free private sample here. Most sample requests can be turned around the same day.
 
-**[Request your free school video sample](https://forms.edvivid.com/sample_request_form.html)**
+**[Request your free same-day school video sample](https://forms.edvivid.com/sample_request_form.html)**
 
 [See examples here](https://edvivid.com/#examples)
 
