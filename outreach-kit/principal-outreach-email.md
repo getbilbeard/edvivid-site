@@ -4,7 +4,8 @@ Use this as an individual email or mail merge. Replace every bracketed field bef
 
 Subject options:
 
-- Quick question about [School Name] announcements
+- A faster way to share [School Name] announcements
+- Could this save [School Name] staff time?
 - A simpler way to share [School Name]'s news
 - Could this help [School Name]?
 
